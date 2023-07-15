@@ -22,12 +22,12 @@ https://kazuhitoyokoi.github.io/node-red-chatgpt
 
 ---
 # 月刊I/Oの半年間の連載を完走しました🏃‍♀️💨📚
- - 3月号: プロジェクト機能の概要
+ - 3月号: Git連携機能の概要
  - 4月号: プロジェクトの切り替え
  - 5月号: フローのバージョン管理
  - 6月号: GitHubへフローを共有
  - 7月号: GitHubからフローを取得
- - 8月号: フローをクラウド環境へ<br>　 　　デプロイ
+ - 8月号: フローをクラウド環境で実行
 ![bg right](https://pbs.twimg.com/media/FplCZZnaUAcopKn?format=jpg&name=large)
 
 ---
