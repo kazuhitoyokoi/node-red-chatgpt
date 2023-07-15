@@ -35,7 +35,7 @@ https://kazuhitoyokoi.github.io/node-red-chatgpt
 ChatGPT APIを活用したノードとプラグインを紹介
  - フローの作成手順のチュートリアル生成プラグイン
  - フローのドキュメントを生成するプラグイン
- - 文章からJavaScriptコードを生成できるfunctionノード
+ - JavaScriptコードを生成できるfunctionノード
 
 ---
 # ChatGPTでできること
@@ -71,8 +71,8 @@ https://github.com/node-red-jp/node-red-contrib-plugin-chatgpt
 ![w:570 bg right vertical](https://raw.githubusercontent.com/node-red-jp/node-red-contrib-plugin-chatgpt/main/infotab.png)
 
 ---
-# 文章からJavaScriptコードを生成できるfunctionノード
-functionノードの仕様に沿ったJavaScriptコードを生成するノード
+# JavaScriptコードを生成できるfunctionノード
+文章からfunctionノードの仕様に沿ったJavaScriptコードを生成できるノード
 
 - 作成したい物を入力後、<br>「Ask ChatGPT」ボタンを押す
 - ChatGPTが生成したJavaScript<br>コードを貼り付けてくれる
