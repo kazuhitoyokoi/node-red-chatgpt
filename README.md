@@ -89,4 +89,4 @@ ChatGPT活用によって初心者ユーザ、ITエンジニア、OTエンジニ
  - ITエンジニアは、分かりやすいドキュメントを提供できるように
  - ノーコード開発をしていたOTエンジニアが、ローコードの領域に踏み込めるように
 
-![h:340](https://1.bp.blogspot.com/-Pnp3hqStlqw/XqUWuV_g7mI/AAAAAAABYjw/v5heWkhc4RMMNRH42JdTX37ToDNKsd07ACNcBGAsYHQ/s1600/online_school_boy.png) ![h:290](https://2.bp.blogspot.com/-Lm75_V4O7JY/V3x2OZbmIFI/AAAAAAAA8II/fzLckySfqnk0k7P-_YkSF8aDEBuUBodpQCLcB/s800/job_programmer.png) ![h:290](https://2.bp.blogspot.com/-756zNBRyNL8/VCkbkKOTRoI/AAAAAAAAnJA/zIJDGZopfCM/s800/koujou_kikai_sousa.png)
+![h:320](https://1.bp.blogspot.com/-Pnp3hqStlqw/XqUWuV_g7mI/AAAAAAABYjw/v5heWkhc4RMMNRH42JdTX37ToDNKsd07ACNcBGAsYHQ/s1600/online_school_boy.png) ![h:280](https://2.bp.blogspot.com/-Lm75_V4O7JY/V3x2OZbmIFI/AAAAAAAA8II/fzLckySfqnk0k7P-_YkSF8aDEBuUBodpQCLcB/s800/job_programmer.png) ![h:280](https://2.bp.blogspot.com/-756zNBRyNL8/VCkbkKOTRoI/AAAAAAAAnJA/zIJDGZopfCM/s800/koujou_kikai_sousa.png)
