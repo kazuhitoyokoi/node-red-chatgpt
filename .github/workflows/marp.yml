@@ -13,6 +13,6 @@ jobs:
           git pull
           git config --global user.email "kazuhitoyokoi@nodered.jp"
           git config --global user.name "Kazuhito Yokoi"
-          git add docs/*
+          git add index.htm
           git commit -m "Update generated HTML file"
           git push
