@@ -2,10 +2,10 @@
 marp: true
 paginate: true
 ---
-# Node-RED v3.1新機能紹介
-2023年5月26日 横井一仁
+# ChatGPTでフロー開発を簡単に
+2023年7月20日 横井一仁
 
-https://kazuhitoyokoi.github.io/node-red-3.1-intro
+https://kazuhitoyokoi.github.io/node-red-chatgpt
 
 ---
 ## 横井 一仁 (よこい かずひと)
@@ -21,94 +21,67 @@ https://kazuhitoyokoi.github.io/node-red-3.1-intro
 ![w:400 bg right](https://nodered.jp/images/yokoi.jpg)
 
 ---
-# Open Source Summit North Americaで<br>登壇してきました🇨🇦
- - 「ノードをつくるハンズオン」の内容を発表
- - OpenJS FoundationトップのRobin様にも挨拶できました
-![w:640 bg right vertical](https://pbs.twimg.com/media/Fv4TUloWAAIEmuw?format=jpg)
-![bg right vertical](https://github.com/kazuhitoyokoi/node-red-3.1-intro/blob/main/robin.jpg?raw=true)
-
-   セッションページ: https://sched.co/1K5CB
-
----
-# 月刊I/Oにプロジェクト機能の記事を連載中📚
+# 月刊I/Oの半年間の連載を完走しました🏃‍♀️💨📚
  - 3月号: プロジェクト機能の概要
  - 4月号: プロジェクトの切り替え
  - 5月号: フローのバージョン管理
  - 6月号: GitHubへフローを共有
  - 7月号: GitHubからフローを取得
- - 8月号: フローをクラウド環境へ<br>　　　デプロイ(予定)
+ - 8月号: フローをクラウド環境へ<br>　 　　デプロイ
 ![bg right](https://pbs.twimg.com/media/FplCZZnaUAcopKn?format=jpg&name=large)
 
 ---
-# ご紹介するNode-RED v3.1の新機能
- - ノードの説明タブにMermaid図を表示
- - ノードの説明タブにインライン画像を追加
- - グローバル環境変数
- - プロジェクト関連の修正
- - フローエディタの和訳を修正
+# 本日の内容
+ChatGPT APIを活用したノードとプラグインを紹介
+ - フローの作成手順のチュートリアル生成プラグイン
+ - フローのドキュメントを生成するプラグイン
+ - JavaScriptコードを生成できるfunctionノード
 
 ---
-# Mermaidとは
-- Mermaidとは、Markdown上でテキストで図を書く記法
-- 2022年2月からGitHub、<br>2022年4月からQiitaでも利用可能<br><br>
-
-  Mermaidのサイト: https://github.com/mermaid-js/mermaid
-
-![bg right](https://raw.githubusercontent.com/mermaid-js/mermaid/develop/img/header.png)
-
----
-# ノードの説明タブにMermaid図を表示
-MarkdownエディタにMermaidを用いて図を作成し、左側の説明タブに表示
-- ノードの説明以外でも利用可能
-  - フローの説明書き
-  - グループの説明書き
-  - プロジェクト機能のREADME.mdファイル
-- プレビュー機能でリアルタイムに生成される図を確認しながら記述
-
-![w:600 bg right](https://user-images.githubusercontent.com/30289092/210740564-5c0df1e8-5a3b-46bb-b2a2-5b36bdbbcf18.png)
+# ChatGPTでできること
+Node-REDで活用できるChatGPTの機能
+- 「作りたい物の説明文」から「フローのJSONデータ」を生成
+- 「作りたい物の説明文」から「フローの作成手順」を生成
+- 「フローのJSONデータ」から「フローの説明文」を生成
+- 「フローのJSONデータ」からMermaid図を生成
+- 「作りたい物の説明文」から「JavaScriptのコード」を生成
 
 ---
-# Mermaidのデモ
- - フローの説明書き
- - ChatGPTで生成したフローの説明書き
- - プロジェクト機能で作成した図をGitHubで表示
+# フロー作成手順のチュートリアル生成プラグイン
+開発したい物を入力すると、エディタ上で開発手順を教えてくれるプラグイン
+
+- フローの説明欄の下に「Ask ChatGPT」ボタンが追加される
+- クリックすると、ChatGPTで生成した説明文を貼り付けてくれる
+
+![w:570 bg right vertical](https://flowforge.com/img/tile-chatgpt-fcn-node-F1XVjKYzzk-1120.avif)
+![w:570 bg right vertical](https://raw.githubusercontent.com/node-red-jp/node-red-contrib-plugin-chatgpt/main/infotab.png)
 
 ---
-## ノードの説明タブに<br>インライン画像を追加
-- Markdown中に画像のバイナリデータを挿入できる機能
-- フローと同一JSON内にフローと画像が格納される
+# フローのドキュメントを生成するプラグイン
+開発したフローのドキュメント作成を効率化できるプラグイン
 
-![w:600 bg right](https://user-images.githubusercontent.com/30289092/210725017-0f55c9f3-1bef-438c-be53-ce0a3b158be6.gif)
+- フローの説明欄の下に「Ask ChatGPT」ボタンが追加される
+- クリックすると、ChatGPTで生成した説明文を貼り付けてくれる
 
----
-## グローバル環境変数
-フローエディタの全てのノードから参照できる共通の変数を設定する機能
- - ユーザ設定にグローバル環境変数を設定できるタブが存在
- - サブフロー、グループ、タブ、<br>グローバル環境変数、OSの順に<br>最初に見つかった環境変数を使用
-
-![w:600 bg right vertical](https://user-images.githubusercontent.com/30289092/199946744-099b33aa-d150-4fc8-924f-4ffe9d498494.png)
+![w:570 bg right vertical](https://raw.githubusercontent.com/node-red-jp/node-red-contrib-plugin-chatgpt/main/askchatgpt.png)
+![w:570 bg right vertical](https://raw.githubusercontent.com/node-red-jp/node-red-contrib-plugin-chatgpt/main/infotab.png)
 
 ---
-## プロジェクト機能の修正
- - デフォルトのフローファイル名をflow.jsonからflows.jsonに変更
-   - 引数へフローファイル名を指定する必要がなくなった
-   - package.jsonに`"scripts": { "start": "node-red" },`を記載するだけでnpm startコマンドでアプリケーションを起動できるようになった
+# JavaScriptコードを生成できるfunctionノード
+開発したフローのドキュメント作成を効率化できるプラグイン
 
-    
-  
- - ブランチ名をmasterからmainに変更
- - メニューやダイアログの不具合修正
+- フローの説明欄の下に「Ask ChatGPT」ボタンが追加される
+- クリックすると、ChatGPTで生成した説明文を貼り付けてくれる
 
----
-## フローエディタの和訳を修正
- - changeノードのプロパティ
-   - 値の代入の時:<br>"対象の値"->"代入する値"
-   - 値の移動の時:<br>"対象の値"->"移動先"
-![w:600 bg right vertical](https://pbs.twimg.com/media/FgjmyhLaUAAZGoL?format=jpg&name=medium)
-
- - 新機能を紹介するツアーも和訳済
+![w:570 bg right vertical](https://flowforge.com/img/tile-chatgpt-fcn-node-F1XVjKYzzk-1120.avif)
+![w:570 bg right vertical](https://raw.githubusercontent.com/node-red-jp/node-red-contrib-plugin-chatgpt/main/infotab.png)
 
 ---
-## 最後に
- - Node-RED v3.1では、日本からの要望を取り込んだリリース🇯🇵
- - 今後も、皆で日本から世界へ発信してゆきましょう💪
+## 感想
+ChatGPT活用により、初心者ユーザ、ITエンジニア、OTエンジニアの距離がより近くなった
+
+ - Node-REDの初心者ユーザが、自身でハンズオンできるように
+ - ITエンジニアは、分かりやすいドキュメントを提供できるように
+ - ノーコード開発をしていたOTエンジニアが、ローコードの領域に踏み込めるように
+
+![h:350](https://1.bp.blogspot.com/-Pnp3hqStlqw/XqUWuV_g7mI/AAAAAAABYjw/v5heWkhc4RMMNRH42JdTX37ToDNKsd07ACNcBGAsYHQ/s1600/online_school_boy.png)![h:300](https://2.bp.blogspot.com/-Lm75_V4O7JY/V3x2OZbmIFI/AAAAAAAA8II/fzLckySfqnk0k7P-_YkSF8aDEBuUBodpQCLcB/s800/job_programmer.png)![h:300](https://2.bp.blogspot.com/-756zNBRyNL8/VCkbkKOTRoI/AAAAAAAAnJA/zIJDGZopfCM/s800/koujou_kikai_sousa.png)
