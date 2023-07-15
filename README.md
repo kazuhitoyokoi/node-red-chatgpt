@@ -50,31 +50,36 @@ Node-REDで活用できるChatGPTの機能
 # フロー作成手順のチュートリアル生成プラグイン
 開発したい物を入力すると、エディタ上で開発手順を教えてくれるプラグイン
 
-- フローの説明欄の下に「Ask ChatGPT」ボタンが追加される
-- クリックすると、ChatGPTで生成した説明文を貼り付けてくれる
+- ダイアログに作りたい物を入力しChatGPTで作成手順を生成
+- ツアー機能を用いて、作成手順をステップバイステップで説明
 
-![w:570 bg right vertical](https://flowforge.com/img/tile-chatgpt-fcn-node-F1XVjKYzzk-1120.avif)
-![w:570 bg right vertical](https://raw.githubusercontent.com/node-red-jp/node-red-contrib-plugin-chatgpt/main/infotab.png)
+https://twitter.com/kazuhitoyokoi/status/1647509785942827008
+
+![bg right vertical](tutorial1.png)
+![bg right vertical](tutorial2.png)
 
 ---
 # フローのドキュメントを生成するプラグイン
-開発したフローのドキュメント作成を効率化できるプラグイン
+開発したフローを説明する文章と図を<br>自動的に作成できるプラグイン
 
 - フローの説明欄の下に「Ask ChatGPT」ボタンが追加される
 - クリックすると、ChatGPTで生成した説明文を貼り付けてくれる
+
+https://github.com/node-red-jp/node-red-contrib-plugin-chatgpt
 
 ![w:570 bg right vertical](https://raw.githubusercontent.com/node-red-jp/node-red-contrib-plugin-chatgpt/main/askchatgpt.png)
 ![w:570 bg right vertical](https://raw.githubusercontent.com/node-red-jp/node-red-contrib-plugin-chatgpt/main/infotab.png)
 
 ---
 # JavaScriptコードを生成できるfunctionノード
-開発したフローのドキュメント作成を効率化できるプラグイン
+functionノードの仕様に沿ったJavaScriptコードを生成するノード
 
-- フローの説明欄の下に「Ask ChatGPT」ボタンが追加される
-- クリックすると、ChatGPTで生成した説明文を貼り付けてくれる
+- 作成したい物を入力後、<br>「Ask ChatGPT」ボタンを押す
+- ChatGPTが生成したJavaScript<br>コードを貼り付けてくれる
 
-![w:570 bg right vertical](https://flowforge.com/img/tile-chatgpt-fcn-node-F1XVjKYzzk-1120.avif)
-![w:570 bg right vertical](https://raw.githubusercontent.com/node-red-jp/node-red-contrib-plugin-chatgpt/main/infotab.png)
+https://twitter.com/kazuhitoyokoi/status/1653720620839104512
+
+![w:630 bg right vertical](function.png)
 
 ---
 ## 感想
