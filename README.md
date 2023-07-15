@@ -35,7 +35,7 @@ https://kazuhitoyokoi.github.io/node-red-chatgpt
 ChatGPT APIを活用したノードとプラグインを紹介
  - フローの作成手順のチュートリアル生成プラグイン
  - フローのドキュメントを生成するプラグイン
- - JavaScriptのコードを生成できるfunctionノード
+ - 文章からJavaScriptコードを生成できるfunctionノード
 
 ---
 # ChatGPTでできること
@@ -71,7 +71,7 @@ https://github.com/node-red-jp/node-red-contrib-plugin-chatgpt
 ![w:570 bg right vertical](https://raw.githubusercontent.com/node-red-jp/node-red-contrib-plugin-chatgpt/main/infotab.png)
 
 ---
-# JavaScriptのコードを生成できるfunctionノード
+# 文章からJavaScriptコードを生成できるfunctionノード
 functionノードの仕様に沿ったJavaScriptコードを生成するノード
 
 - 作成したい物を入力後、<br>「Ask ChatGPT」ボタンを押す
@@ -89,4 +89,4 @@ ChatGPT活用によって初心者ユーザ、ITエンジニア、OTエンジニ
  - ITエンジニアは、分かりやすいドキュメントを提供できるように
  - ノーコード開発をしていたOTエンジニアが、ローコードの領域に踏み込めるように
 
-![h:350](https://1.bp.blogspot.com/-Pnp3hqStlqw/XqUWuV_g7mI/AAAAAAABYjw/v5heWkhc4RMMNRH42JdTX37ToDNKsd07ACNcBGAsYHQ/s1600/online_school_boy.png)![h:300](https://2.bp.blogspot.com/-Lm75_V4O7JY/V3x2OZbmIFI/AAAAAAAA8II/fzLckySfqnk0k7P-_YkSF8aDEBuUBodpQCLcB/s800/job_programmer.png)![h:300](https://2.bp.blogspot.com/-756zNBRyNL8/VCkbkKOTRoI/AAAAAAAAnJA/zIJDGZopfCM/s800/koujou_kikai_sousa.png)
+![h:340](https://1.bp.blogspot.com/-Pnp3hqStlqw/XqUWuV_g7mI/AAAAAAABYjw/v5heWkhc4RMMNRH42JdTX37ToDNKsd07ACNcBGAsYHQ/s1600/online_school_boy.png) ![h:290](https://2.bp.blogspot.com/-Lm75_V4O7JY/V3x2OZbmIFI/AAAAAAAA8II/fzLckySfqnk0k7P-_YkSF8aDEBuUBodpQCLcB/s800/job_programmer.png) ![h:290](https://2.bp.blogspot.com/-756zNBRyNL8/VCkbkKOTRoI/AAAAAAAAnJA/zIJDGZopfCM/s800/koujou_kikai_sousa.png)
