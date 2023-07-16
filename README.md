@@ -84,7 +84,7 @@ https://twitter.com/kazuhitoyokoi/status/1653720620839104512
 ![w:630 bg right vertical](function.png)
 
 ---
-## 感想
+## 最後に
 ChatGPT活用によって初心者ユーザ、ITエンジニア、OTエンジニアの距離が近くなった
 
  - Node-REDの初心者ユーザが、自身でハンズオンできるように
