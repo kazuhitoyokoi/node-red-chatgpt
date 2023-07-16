@@ -46,7 +46,7 @@ https://kazuhitoyokoi.github.io/node-red-chatgpt
 - 「フローのJSONデータ」から「Mermaid図」を生成
 - 「作りたい物の説明文」から「JavaScriptコード」を生成
 
-これら本機能をChatGPT APIを用いてフローエディタ上で<br>利用できるようにしたプラグインとカスタムノードを以降紹介
+これらをChatGPT APIを用いてフローエディタ上で<br>利用できるようにしたプラグインとカスタムノードを以降紹介
 
 ---
 # フロー作成手順のチュートリアル生成プラグイン
