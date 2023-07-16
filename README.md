@@ -27,7 +27,7 @@ https://kazuhitoyokoi.github.io/node-red-chatgpt
  - 5月号: フローのバージョン管理
  - 6月号: GitHubへフローを共有
  - 7月号: GitHubからフローを取得
- - 8月号: フローをクラウド環境で実行
+ - 8月号: フローをクラウドで実行
 ![bg right](https://pbs.twimg.com/media/FplCZZnaUAcopKn?format=jpg&name=large)
 
 ---
